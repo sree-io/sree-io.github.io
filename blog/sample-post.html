@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Post &mdash; Sreekanth </title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Sreekanth </h1>
+        <p>Blog</p>
+      </header>
+
+      <a class="back-link" href="../index.html#blog">&larr; Back to Blog</a>
+
+      <article>
+        <h2>Sample Post</h2>
+        <p class="post-meta">2026-07-29</p>
+        <p>No posts yet. Check back soon!</p>
+        <p class="placeholder">
+          (This is a sample article used to verify that hyperlinks from the
+          Blog tab open correctly. Replace or remove it once real posts are
+          added.)
+        </p>
+      </article>
+
+      <footer>
+        <p>&copy; <span id="year"></span> Sreekanth </p>
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

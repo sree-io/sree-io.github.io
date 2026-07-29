@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.home-intro {
+  text-align: center;
+  margin: 0 0 2rem;
+}
+
+.home-intro.is-hidden {
+  display: none;
+}
+
+.intro {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.social-link {
+  display: inline-flex;
+  margin: 0 8px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #555555;
+}
+
+.social-link svg {
+  width: 28px;
+  height: 28px;
+  fill: currentColor;
+}
+
+nav.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 2rem;
+}
+
+nav.tabs button {
+  font-family: inherit;
+  font-size: 1.1rem;
+  background: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+  border-bottom: none;
+  padding: 0.75rem 1.75rem;
+  margin: 0 4px;
+  cursor: pointer;
+  border-radius: 6px 6px 0 0;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+nav.tabs button:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+nav.tabs button.active {
+  background: #000000;
+  color: #ffffff;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+ul.blog-list {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+ul.blog-list li {
+  padding: 0.9rem 0;
+  border-bottom: 1px dotted #000000;
+}
+
+ul.blog-list li:last-child {
+  border-bottom: none;
+}
+
+.post-date {
+  display: inline-block;
+  min-width: 115px;
+  font-style: italic;
+}
+
+.post-meta {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #555555;
+}
+
+.placeholder {
+  font-style: italic;
+  color: #333333;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #000000;
+  font-size: 0.9rem;
+}
